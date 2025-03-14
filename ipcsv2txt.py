@@ -19,6 +19,6 @@ def convert_ip_to_txt(input_filename, output_filename, num_entries=100):
         print(f"发生错误：{str(e)}")
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\sinos\Desktop\amclubs-cfnat-amd64\ip.csv"  # 使用 r 前缀
+    input_file = r"填入ip.csv文件路径"  # 使用 r 前缀
     output_file = "ip_locations.txt"
     convert_ip_to_txt(input_file, output_file, 100)
